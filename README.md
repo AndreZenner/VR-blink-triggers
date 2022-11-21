@@ -18,6 +18,9 @@ In order to use the **Air Puff**, you have to build and integrate a microblower 
 ## Installation
 Download **vr-blink-trigger.unitypackage** and import the files into your project. 
 
+If the project throws errors, don't forget to set the project to the correct .NET version.  
+For this, go to -> Player Settings -> API Compatibility Level -> `.NET Framework` (not `.NET Framework 2.1`!).  
+
 ## Setup and Usage
 You can either run the ` ExampleBlinkTrigger ` Scene, which contains a demo room setup and the **TriggerManager**, or you can drag the **Trigger Manager** from the Prefabs folder into your scene.
 
