@@ -8,7 +8,7 @@ VR-Blink-Trigger provides a set of Unity scripts that implement different ways t
 - **AirPuff:** By blowing a small puff of air towards an area around the eye, the cornea reflex is stimulated and results in an eye blink. The air puff can be produced by a small piezoelectric microblower.
 
 **Flash, Blur and ApproachingObject** are **visual** blink trigger. They were implemented only by software and can be used right away.  
-In order to use the **Air Puff**, you have to build and integrate a microblower into the VR glasses. You can find instructions below.
+In order to use the **Air Puff**, you have to build and integrate a microblower into the VR glasses. For an example, you can look at the description in the Bachelor's thesis "Triggering Eye Blinks in Virtual Reality" by Kristin Ullmann (Saarland University).  
 
 ## Requirements
 `Unity (>= 2020.3.6f1)`
@@ -59,4 +59,15 @@ The parameters of the Blink Trigger Scripts can be modified in the inspector. If
 **IMPORTANT** The materials of the blink trigger use specific shaders. If you change the material, the blink trigger might not work correctly.
 
 <img src="inspector-preview.PNG"  height="700"> 
- 
+
+
+## Credits
+Before use, please see the [LICENSE](LICENSE.md) for copyright and license details.
+
+<p><img src="https://www.inf.uni-hamburg.de/25610386/vhive-logo-10cb0fb4711320d5f662386dd29b49889c5ff3b0.png" alt="VHIVE Logo" width="250"></p>
+<p><img src="https://www.inf.uni-hamburg.de/25610329/dfg-b87508c85acc9755665f0b2d363660ccf2a403ce.jpg" alt="DFG Logo" width="250"></p>
+
+This open-source package is part of the DFG project [VHIVE](https://www.inf.uni-hamburg.de/en/inst/ab/hci/projects/vhive.html) and was created by [André Zenner](https://umtl.cs.uni-saarland.de/people/andre-zenner.html) and Kristin Ullmann at the [UMTL](https://umtl.cs.uni-saarland.de/) at Saarland University.
+This work was supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation), the [Deutsches Forschungszentrum für Künstliche Intelligenz GmbH](https://www.dfki.de/) (DFKI; German Research Center for Artificial Intelligence), and [Saarland University](https://www.uni-saarland.de/).
+<p><img src="pics/dfki-logo.jpg" alt="DFKI Logo" width="250"></p>
+<p><img src="pics/uds-logo.png" alt="Saarland University Logo" width="250"></p>
