@@ -1,3 +1,5 @@
+<p><img src="pics/teaser-v2.png" alt="VR Blink Trigger Teaser Image" width="100%"></p>
+
 # VR-Blink-Trigger
 
 VR-Blink-Trigger provides a set of Unity scripts that implement different ways to trigger an eye blink in Virtual Reality:
